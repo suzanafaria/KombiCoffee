@@ -1,0 +1,344 @@
+/*Esta é uma folha de estilos em cascata*/
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@font-face {
+	font-family: 'Acme', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+}
+@font-face {
+	font-family: 'Calistoga', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+}
+@font-face {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+}
+@font-face {
+	font-family: 'Signika', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+}
+
+body{
+	background-color: #F8E1C2;
+	font-family: "Acme";
+	margin: 0 10px 0 10px;
+}
+
+p{
+	font-family: "Signika";
+	font-size: 1em;
+	margin: 15px 0;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 960px;
+}
+
+.esconder{
+	display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	padding:30px 0px 30px 0px;
+	background-color: white;
+}
+.banner img{
+	width: 100%;
+	border-radius: 30px;
+	margin-bottom: 40px;
+}
+.menu ul{
+	margin:0px 0px 30px 0px;
+	float: left;
+	width: 100%;
+	list-style:none;
+	background-color: #602820;
+	text-align: center;
+}
+
+.menu ol{
+	display: inline-block;
+	position:relative; 
+	padding: 10px 20px;
+
+}
+
+.menu ol a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+.menu ul ol a:hover:not(.active) {
+	color: #B98A83;
+	border-bottom:2px solid #B98A83;
+}
+
+.active {
+	background-color: #B98A83;
+}
+.texto1{
+	color: #602820;
+	font-family: "Acme";
+	font-size: 2.5em;
+	margin: 30px 0;
+	text-align: center;
+	font-style: italic;
+}
+
+.titulo h3{
+	color: #602820;
+	font-family: "Acme";
+	font-size: 2.5em;
+	margin: 30px 0px 20px 0px;
+	text-align: left;
+}
+
+.titulo p{
+	font-family: "Signika";
+	font-size: 1em;
+	margin: 20px 0 40px 0;
+}
+
+.subtitulo{
+	color: #6C7A3F;
+	font-family: "Acme";
+	font-size: 1.5em;
+	margin: 30px 0;
+	font-style: italic;
+}
+
+.sessao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.escolherCafe{
+    width: 50%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.localizacao{
+    width: 50%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.imgBorda{
+	border-radius: 150px;
+}
+.tituloCardapio{
+	color: #602820;
+	font-family: "Acme";
+	font-size: 2.5em;
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+}
+
+.redimensionaImg{
+	max-width: 150px;
+	max-height:150px;
+	width: 150px;
+	height: 150px;
+}
+
+#table table{
+	margin-bottom: 30px;
+	text-align: center;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;  /*alinha verticalmente os itens */
+	width: 100%;
+	vertical-align: center !important;
+}
+
+#table tr:hover{
+	background: rgba(200, 132, 64, 0.2);
+}
+
+#table td, th{
+	padding: 8px;
+	text-align: center;
+	border: 1px solid #B35726;
+	vertical-align: center !important;
+}
+
+#table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #B35726;
+	color: white;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.1em;
+}
+
+#boxCafe h4{
+	padding: 15px;
+	background-color: #D3B5BA;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#sectionsParalelas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.eventos1{
+	width: 30%;
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.eventos2{
+	width: 30%;
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.eventos3{
+	width: 30%;
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.redimensionaImgEventos{
+	margin-top: 5px;
+	width: 250px;
+	height: 210px;
+	border-radius: 30px;
+	webkit-box-shadow: 4px 4px 7px 2px #919191;
+	box-shadow: 4px 4px 7px 2px #919191;
+}
+
+.tituloEvento{
+	color: black;
+	font-family: "Signika";
+	font-size: 1.5em;
+	margin: 30px 0px 20px 0px;
+}
+
+.linhaHorizontal{
+	width: 5%;
+	alignment: left;
+	height: 30px;
+	color: #784A5C;
+}
+
+.enderecos{
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+.escrito{
+	border-right: 1px solid #6C7A3F;
+	background-color: rgba(108, 122, 63, 0.3);
+	padding: 20px;
+}
+
+.mapaLocal iframe{
+	width: 450px;
+	height: 300px;
+}
+
+#contato{
+	margin: auto auto 0 auto;
+	padding: 20px;
+	width: 50%;
+	height: 100%;
+	font-size: 1.3em;
+	border-radius: 10px;
+	background-color: rgba(101, 101, 101, 0.3);
+}
+
+#contato input[type=text], textarea {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#contato input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#contato label {
+	padding: 10px 5px 0 0;
+	display: inline-block;
+}
+
+#contato input[type=submit] {
+	background-color: #2C2C2C;
+	color: white;
+	width: 100%;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#contato input[type=submit]:hover {
+	background-color: #6C7A3F;
+}
+
+
+footer {
+	border-top: 2px solid #8C8C8C;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	margin: 50px 0 10px 0;
+
+}
+
+footer h5{
+	font-family: "Arial Narrow";
+	font-size: 0.9em;
+	color: #505050;
+	margin-top: 22px;
+
+}
